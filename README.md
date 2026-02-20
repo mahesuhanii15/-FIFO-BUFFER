@@ -13,9 +13,9 @@ flag is low.
 c.  If both WR_EN and RD_EN are high in the same clock cycle, the data 
 should be written, and a new data item should be read. The total count of 
 items in the FIFO should remain unchanged 
-REQUIRED SOFTWARE USED: 
-1. VIVADO Software 
-2. FPGA target used for implementation => Zedboard 
+4. REQUIRED SOFTWARE USED: 
+a. VIVADO Software 
+b. FPGA target used for implementation => Zedboard 
 THEORY: 
 The First-In, First-Out (FIFO) buffer is a fundamental and widely used component in digital 
 system design and computing. By definition, a FIFO buffer is a data structure or hardware 
